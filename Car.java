@@ -3,9 +3,9 @@ package n1exercici2;
 public class Car {
 
 	//Atributs
-	static final String BRAND = "Dacia";
-	static String model = "Sandero";
-	final int POWER;
+	private static final String BRAND = "Dacia";
+	private static String model = "Sandero";
+	private final int POWER;
 	
 	//Constructor
 	public Car(int power ) {
