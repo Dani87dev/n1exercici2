@@ -2,7 +2,7 @@ package n1exercici2;
 
 public class Car {
 
-	//Atributs
+	//Attributes
 	private static final String BRAND = "Dacia";
 	private static String model = "Sandero";
 	private final int POWER;
@@ -26,12 +26,12 @@ public class Car {
 		Car.model = model;
 	}
 
-	//Métodes
+	//Methods
 	public static void brake() {
-		System.out.println("El vehicle està frenant");
+		System.out.println("The vehicle is breaking down");
 	}
 	public  void accelerate() {
-		System.out.println("El vehicle està accelerant");
+		System.out.println("The vehicle is accelerating");
 	}
 
 }
